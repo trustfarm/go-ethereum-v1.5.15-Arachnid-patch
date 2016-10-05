@@ -1,3 +1,18 @@
+This code archive is save for Arachnid's patch easily.
+This is forked from geth-v1.5.15-develop branch and applied Arachnid
+It's on PR3085
+https://github.com/ethereum/go-ethereum/pull/3085
+
+And Local fetched above PR.
+6th Oct / 1AM : It works good.
+
+## Caution::
+This develop branch will upgrade Chain DB for journal related.
+So, chain DB will not compatible with master branch geth.
+
+If you run this geth, geth will updates your db from the scratch.
+I think geth master branch will change or upgrade db on this develop version's codes.
+
 ## Ethereum Go
 
 Official golang implementation of the Ethereum protocol
